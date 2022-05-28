@@ -159,6 +159,11 @@ img {
   background-color: var(--accent-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: url(/images/heroes.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
 }
 
 .heroes-container {
