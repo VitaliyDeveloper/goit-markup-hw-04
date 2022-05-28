@@ -163,7 +163,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
 
 .heroes-container {
@@ -360,3 +359,4 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
