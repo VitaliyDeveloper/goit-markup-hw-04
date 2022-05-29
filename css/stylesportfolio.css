@@ -104,6 +104,12 @@ img {
 .head-contact-mail:focus,
 .head-contact-tel:focus {
   color: #2196f3;
+  }
+
+.head-contact-mail:hover .icon-contact,
+.head-contact-tel:hover .icon-contact,
+.head-contact-mail:focus .icon-contact,
+.head-contact-tel:focus .icon-contact{
   fill: var(--highlight-text-color);
 }
 
@@ -137,6 +143,7 @@ img {
   width: 16px;
   height: 16px;
   margin-right: 10px;
+  fill: #757575;
   }
 
 
@@ -183,6 +190,7 @@ img {
   background: #f5f4fa;
   padding: 6px 22px;
   border-radius: 4px;
+  border: none;
 }
 
 .btn:hover,
@@ -214,6 +222,15 @@ img {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding: 20px 24px;
+}
+
+.portfolio-img-link {
+  display: block;
+}
+
+.portfolio-img-link:hover,
+.portfolio-img-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-title {
